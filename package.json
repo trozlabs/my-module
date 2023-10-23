@@ -1,0 +1,26 @@
+{
+  "name": "my-module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./src/index.js",
+  "bin": {
+    "my-module": "./bin/index.js"
+  },
+  "scripts": {
+    "develop": "nodemon ./test",
+    "test": "node ./test",
+    "start": "node ."
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trozlabs/my-module"
+  },
+  "author": "trozlabs",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
