@@ -1,5 +1,17 @@
 # my-module
 
+## Usage
+
+```
+npm i @trozlabs/my-module
+```
+
+```
+npx trozlabs/my-module@latest
+```
+
+## Development
+
 ```bash
 git clone https://github.com/trozlabs/my-module.git
 
@@ -8,16 +20,16 @@ cd my-module
 npm install
 ```
 
-## npx
+### npx
 
 run the npx script `my-module` (`bin.my-module` in `package.json`)
 
-### npx local
+#### npx local
 ```bash
 npx my-module
 ```
 
-### npx remote
+#### npx remote
 ```bash
 npx trozlabs/my-module
 ```
@@ -29,7 +41,7 @@ running: /Users/trozdol/Development/my-module/bin/index.js version: 0.0.1
 ```
 </details>
 
-## npm test
+### npm test
 
 ```bash
 npm test
@@ -49,7 +61,7 @@ npm test
 
 </details>
 
-## npm run develop
+### npm run develop
 
 ```bash
 npm run develop
