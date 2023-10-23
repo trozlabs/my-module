@@ -3,11 +3,11 @@
 ## Usage
 
 ```
-npm i @trozlabs/my-module
+npm i trozlabs/my-module
 ```
 
 ```
-npx trozlabs/my-module@latest
+npx trozlabs/my-module
 ```
 
 ## Development
